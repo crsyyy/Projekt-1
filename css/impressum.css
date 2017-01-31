@@ -1,0 +1,35 @@
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #F05F40 !important;
+}
+hr {
+  border-color: #F05F40 !important;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+	margin-top:30px;
+}
+
+.jumbotron p {
+	font-size: 14px;
+	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.jumbotron h3 {
+	  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	  font-size:20px;
+}
+
+@media (max-width: 769px) {
+  .jumbotron h2 {
+    font-size:18px;
+  }
+}
