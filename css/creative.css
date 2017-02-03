@@ -494,12 +494,8 @@ body {
 }
 
 @media (max-width: 769px) {
-  header {
-	/*height:100vh;
-	width:auto;*/
-    background-image: url('../img/1_Nikolai-min_mobile.jpg');
-   /* position:relative;
-    background-size:cover;*/
+   header {
+   background-image: url('../img/1_Nikolai-min_mobile.jpg');
    padding: 50px 15px 40px;
   }
 }
@@ -515,4 +511,16 @@ body {
   
 #contact {
 	margin-bottom:20px;
+}
+
+@media (max-width:769px) {
+	#footer {
+		padding-top:0px;
+	}
+	#contact {
+		padding-bottom:10px;
+	}
+	.smicon {
+		width:40px;
+	}	
 }
