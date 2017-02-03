@@ -495,9 +495,11 @@ body {
 
 @media (max-width: 769px) {
   header {
-	height:100%;
-	width:auto;
+	/*height:100vh;
+	width:auto;*/
     background-image: url('../img/1_Nikolai-min_mobile.jpg');
+   /* position:relative;
+    background-size:cover;*/
   }
 }
 
