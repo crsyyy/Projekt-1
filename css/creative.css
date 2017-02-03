@@ -170,7 +170,7 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 150px 15px 150px; /*verstehen!*/
+  padding: 180px 15px 250px; /*verstehen!*/
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -495,7 +495,8 @@ body {
 
 @media (max-width: 769px) {
   header {
-    margin-top:50px;
+	height:100%;
+	width:auto;
     background-image: url('../img/1_Nikolai-min_mobile.jpg');
   }
 }
