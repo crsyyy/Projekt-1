@@ -32,15 +32,31 @@ p {
 #aboutme{
 	background:#222222;
 	color:white;
-	padding:50px;
+	padding-top:50px;
+	padding-bottom:50px;
 }
 
 #referenzen {
 	padding-bottom:50px;
 }
 
-#socialmedia {
+#footer {
 	margin-top:50px;
+	padding-bottom:10px;
+}
+
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F05F40;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+}
+#impressum {
+	font-size:12px;
 }
 
 .main {
@@ -65,34 +81,11 @@ h1 {
 
 @media (max-width: 769px) {
   #aboutme {
-    padding:10px;
+    padding-top:10px;
+    padding-bottom:10px;
   }
 }
-.smicon:hover{
-	-webkit-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-	-ms-transform:rotate(360deg);
-	transform:rotate(360deg);
-}
 
-.smicon {
-	/*!width: 50px;
-	height: auto; !*/
-	display:inline-block;
-	-webkit-transition: all ease 0.3s;
-	-moz-transition: all ease 0.3s;
-	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3s;
-	transition: all ease 0.3s;
-}
-
-@media (max-width: 769px) {
-  .smicon{
-    width:30px;
-    height:auto;
-  }
-}
 
 .navbar-default {
   background-color: white;
